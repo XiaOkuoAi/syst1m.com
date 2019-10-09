@@ -1,0 +1,76 @@
+baseURL = "https://syst1m.com/"
+languageCode = "zh-cn"
+title = "Syst1m的博客 | 伪程序员,信安爱好者,专注于网络攻防和信息安全"
+theme = "easybook"
+
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
+
+paginate = 8                            # 首页每页显示的文章数
+googleAnalytics = "UA-XXXXXXXX-X"      # UA-XXXXXXXX-X
+# 右上角菜单
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  url = "/"
+[[menu.main]]
+  name = "Category"
+  weight = 20
+  url = "/post/"
+[[menu.main]]
+  name = "ChaBug"
+  weight = 50
+  url = "http://www.chabug.org"
+
+# site info
+[params]
+  author = "Syst1m"
+  whoami = "哀吾生之须臾,羡长江之无穷."
+  avatar = "https://avatars1.githubusercontent.com/u/18618771?s=460&v=4"
+  keywords = ["Syst1m","信息安全","网络安全","红蓝攻防","渗透测试","bypass","waf","注入","黑客"]
+  description = "伪程序员,信安爱好者,专注于网络攻防和信息安全."
+
+  [params.social]
+    GitHub = "https://github.com/XiaOkuoAi"
+    Email = "mailto:1990758989@qq.com"
+  [params.utterances]       # https://utteranc.es/
+    owner = "XiaOkuoAi"          # Your GitHub ID
+    repo = "syst1m.com"       # The repo to store comments
+  [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
+  [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
+  # Valine.
+  # You can get your appid and appkey from https://leancloud.cn
+  # more info please open https://valine.js.org
+  [params.valine]
+    enable = false
+    appId = 'appId'
+    appKey = 'appKey'
+    notify = false          # mail notifier , https://github.com/xCss/Valine/wiki
+    verify = false          # Verification code
+    avatar = 'mm' 
+    placeholder = '说点什么吧...'
+    visitor = false
+  
+  changyanAppid = ""        # Changyan app id             # 畅言
+  changyanAppkey = ""       # Changyan app key
+
+  livereUID = ""            # LiveRe UID                  # 来必力
+  
+  baiduPush = false          # baidu push                  # 百度
+  baiduAnalytics = ""       # Baidu Analytics
+  baiduVerification = ""    # Baidu Verification
+  googleVerification = ""   # Google Verification         # 谷歌
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  customCSS = []
+  customJS = []
