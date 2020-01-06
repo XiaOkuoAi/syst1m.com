@@ -1,3 +1,13 @@
+---
+title: "Mysql Injection"
+date: 2020-01-06T17:05:39+08:00
+draft: true
+tags: [SQL注入]
+categories: []
+comment: true
+---
+Mysql Injection
+<!--more-->
 # MYSQL注入
 
 ### 函数
@@ -906,4 +916,5 @@ select sys_exec('cmd');
 ```
 
 ![](https://ae01.alicdn.com/kf/H35996863ea5f4319930172b9924440f4D.jpg)
+
 
