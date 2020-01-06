@@ -1,7 +1,7 @@
 ---
 title: "Sql Labs Record"
 date: 2020-01-06T16:59:36+08:00
-draft: true
+draft: false
 tags: [SQL注入]
 categories: []
 comment: true

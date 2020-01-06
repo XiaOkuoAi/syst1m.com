@@ -1,7 +1,7 @@
 ---
 title: "Mysql Injection"
 date: 2020-01-06T17:05:39+08:00
-draft: true
+draft: false
 tags: [SQL注入]
 categories: []
 comment: true
