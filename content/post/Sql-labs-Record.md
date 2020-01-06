@@ -1,5 +1,24 @@
-# Sql-labs记录
+---
+title: "Sql Labs Record"
+date: 2020-01-06T16:59:36+08:00
+draft: true
+tags: [SQL注入]
+categories: []
+comment: true
+---
+Sql Labs Record
+<!--more-->
 
+# Sql-labs记录
+---
+title: "A XssPayload Analysis"
+date: 2019-07-05T14:51:16+08:00
+lastmod: 2019-07-05T14:51:16+08:00
+draft: false
+tags: [代码学习]
+categories: []
+comment: true
+---
 记录了一些sql-labs的闯关历史
 
 - 随记
