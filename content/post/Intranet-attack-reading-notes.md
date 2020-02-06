@@ -42,7 +42,7 @@ Wce(windows平局管理器->列出登陆会话、添加修改列出和删除关�
 
 mimikatz
 
-Responder（不仅用于嗅探网络内所有的LLMNR 和获取主机的信息、还提供多种渗透测试环境和场景、包括https、SMB、sql server、ftp、lmap、POP3等）
+Responder（不仅用于嗅探网络内所有的LLMNR 和获取主机的信息、还提供多种渗透测试环境和场景、包括https、SMB、sql server、ftp、ldap、POP3等）
 
 DSHash(从NTDSXtract中提取用户的易于理解的散列值)
 
@@ -77,7 +77,7 @@ Getif(收集snmap设备信息)
 Cain&&Abel(密码恢复工具、通过嗅探网络，破解加密密码，恢复无线网络密钥显示密码框、发现缓存中的密码、分析路由信息、恢复各种密码和凭据)
 ```
 
-### Powershll
+### Powershell
 
 ```
 Get-help/$PSVersionTable.PSVERSION 查看powershellb版本
@@ -704,7 +704,7 @@ lcx -tran 53 目标主机ip地址 3389
 
 - netcat(nc)
 
-#### PowerCat(nc的powershll版本)
+#### PowerCat(nc的powershell版本)
 
 - 导入
 
