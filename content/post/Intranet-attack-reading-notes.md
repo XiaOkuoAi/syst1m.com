@@ -2988,3 +2988,4 @@ load按钮-> xxx.cna
 ./agscript [host] [port][user][password][/path/to/script.cna]
 ```
 
+>> 笔记摘自：《内网安全攻防 渗透测试实战指南》书本，非常不错的书本。
