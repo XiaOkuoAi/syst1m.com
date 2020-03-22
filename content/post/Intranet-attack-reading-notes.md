@@ -110,7 +110,7 @@ Set-ExecutionPolicy XX 设置执行策略
 - 绕过本地权限并执行
 
 ```
-Powershell.exe -ExecutionPolicy Bypass -File PowerUp.ps1 命令行环境下绕过本地权限执行
+Powershell.exe -ExecutionPolicy Bypass -File ./encpayload.ps1 命令行环境下绕过本地权限执行
 
 powershell.exe -exec bypass -Command "& {import-Module C:\syst1m.ps1; Invoke-AllChecks}"
 目标本地执行脚本
