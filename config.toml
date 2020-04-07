@@ -22,6 +22,10 @@ googleAnalytics = "UA-XXXXXXXX-X"      # UA-XXXXXXXX-X
   name = "ChaBug"
   weight = 50
   url = "http://www.chabug.org"
+[[menu.main]]
+  name = "友情链接"
+  weight = 50
+  url = "/links"
 
 # site info
 [params]
