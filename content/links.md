@@ -4,7 +4,7 @@ date: 2020-04-07T20:44:46+08:00
 draft: false
 ---
 
-- Y4er(好兄弟，师傅)
+- Y4er(好兄弟)
 
 [Y4er](http://www.y4er.com)
 
