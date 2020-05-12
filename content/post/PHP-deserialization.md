@@ -157,7 +157,24 @@ xxx<?php xxx; __HALT_COMPILER();?>
 ?>
 ```
 
-                                                    
+## Tips
+
+- __wakeup
+
+```
+属性值大于原有属性数可以绕过
+```
+
+- 正则
+
+```
+if (substr($data, 0, 2) !== 'O:'
+      && !preg_match('/O:\d:\/', $data))
+
+```
+
+**代码对data进行了判断，不可以为对象，0:X，X不可以为数字，绕过方法可以使用array数组绕过第一个，在X前面加+绕过第二个限制，搭达到到达反序列化方法的步骤。在__destruct销毁时会调用createCache方法写入文件，达成目的。**    
+                          
 ## 参考
 
 [一篇文章带你深入理解PHP反序列化漏洞](https://www.k0rz3n.com/2018/11/19/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E5%B8%A6%E4%BD%A0%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3PHP%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E/)
