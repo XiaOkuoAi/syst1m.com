@@ -12,7 +12,8 @@ comment: true
 # php代码审计学习之函数缺陷
 
 **感兴趣的可以参考一下**[PHP-Audit-Labs](https://github.com/hongriSec/PHP-Audit-Labs)
-##in_array函数缺陷
+
+## in_array函数缺陷
 ### Wish List
 
 - Code
