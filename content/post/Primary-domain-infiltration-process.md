@@ -62,7 +62,7 @@ POST /XXXXXX/XXX/Login.asp HTTP/1.1Host: target.comUser-Agent: Mozilla/5.0 (Wi
 ![](https://maekdown-1300474679.cos.ap-beijing.myqcloud.com/20200806174814.png)
 
 **将域管账号对其他机器进行批量pth，梭哈就完事了**
-![](https://maekdown-1300474679.cos.ap-beijing.myqcloud.com/20200806183012.png)
+![](https://maekdown-1300474679.cos.ap-beijing.myqcloud.com/20200806221913.png)
 ![](https://maekdown-1300474679.cos.ap-beijing.myqcloud.com/20200806215338.png)
 
 **最后获得了三台AD，mail，file一些权限，然后就去看电视了**
