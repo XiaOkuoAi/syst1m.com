@@ -1,5 +1,5 @@
 ---
-title: "JavaSe Study"
+title: "JavaSe"
 date: 2020-09-02T17:41:38+08:00
 draft: false
 tags: []
